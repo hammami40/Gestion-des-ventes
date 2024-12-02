@@ -1,0 +1,22 @@
+@media print{
+    form, button, hr{
+        display: none!important;
+    }
+    table{
+        width:100%;
+        height: 600px;
+        text-align: center;
+        font-size:24px;
+        font-weight: bold;
+    }
+    h1{
+        text-align: center;
+    }
+    small{
+        float: right;
+    }
+}
+
+h1{
+    margin-bottom: 0px;
+}
